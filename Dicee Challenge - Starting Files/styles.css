@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap');
+
+body,
+button {
+  font-family: 'Henny Penny', cursive;
+}
+
+/* Button */
+button {
+  background-color: rgb(211, 118, 118);
+  color: rgb(12, 12, 12);
+  font-size: 2rem;
+  padding: 10px 20px;
+  border: 2px solid black;
+  border-radius: 10px;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 50px;
+} 
+  button:hover {
+    background-color: rgb(211, 118, 118, 70%);
+  }
+
+body {
+  background-color: rgb(105, 70, 65);
+  color: rgb(8, 8, 8);
+  text-align: center;
+  margin-top: 75px;
+}
+
+.container {
+  text-align: center;
+  font-size: 2rem;
+  border: 2px solid gray;
+  border-radius: 5%;
+  background-color: rgb(166, 172, 177, 70%);
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.dice {
+  display: inline-block;
+  padding-inline: 40px;
+}
+
+footer {
+  text-align: center;
+  color: rgb(12, 12, 12);
+  font-size: 1.5rem;
+  margin-top: 50px;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
